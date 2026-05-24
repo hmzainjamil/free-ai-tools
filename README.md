@@ -1,9 +1,16 @@
 # Free AI Tools
 
-![Stars](https://img.shields.io/github/stars/ShaikhWarsi/free-ai-tools?style=social)
-![Last Updated](https://img.shields.io/badge/updated-April%2011%2C%202026-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)
+<p align="center">
+  <a href="https://github.com/hmzainjamil/free-ai-tools/stargazers"><img src="https://img.shields.io/github/stars/hmzainjamil/free-ai-tools?style=for-the-badge&labelColor=555&color=white" alt="Stars"></a>
+  <a href="https://github.com/hmzainjamil/free-ai-tools/network/members"><img src="https://img.shields.io/github/forks/hmzainjamil/free-ai-tools?style=for-the-badge&labelColor=555&color=white" alt="Forks"></a>
+  <a href="https://github.com/hmzainjamil/free-ai-tools/issues"><img src="https://img.shields.io/github/issues/hmzainjamil/free-ai-tools?style=for-the-badge&labelColor=555&color=white" alt="Issues"></a>
+  <a href="https://github.com/hmzainjamil/free-ai-tools/pulls"><img src="https://img.shields.io/github/issues-pr/hmzainjamil/free-ai-tools?style=for-the-badge&labelColor=555&color=white" alt="PRs"></a>
+  <a href="https://github.com/hmzainjamil/free-ai-tools/commits"><img src="https://img.shields.io/github/last-commit/hmzainjamil/free-ai-tools?style=for-the-badge&labelColor=555&color=white" alt="Last Commit"></a>
+</p>
+
+![Last Updated](https://img.shields.io/badge/updated-April%2011%2C%202026-brightgreen?style=for-the-badge&labelColor=555)
+![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge&labelColor=555)
+![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&labelColor=555)
 
 > **Curated list of free LLM APIs, coding copilots, AI IDEs, agents, and infrastructure tools for building real AI applications.**
 
@@ -1895,3 +1902,36 @@ MIT © [ShaikhWarsi](https://github.com/ShaikhWarsi)
 ---
 
 *Last updated: April 11, 2026 • PRs/issues welcome*
+
+---
+
+## ☠️ STARTUPS / BUSINESSES
+
+Free AI tools that survive in production:
+
+| Layer | Best Free Option | Limit Before Paid |
+|-------|-----------------|-------------------|
+| **LLM API** | Groq (llama-3.3-70b) | 30 RPM free tier |
+| **LLM API** | Gemini Flash | 1500 req/day |
+| **Embedding** | Nomic Embed (via Ollama) | Unlimited local |
+| **Vector DB** | Qdrant (self-hosted) | No limit |
+| **Agent framework** | CrewAI OSS | No limit |
+| **Code copilot** | Cursor free tier | 2000 completions/mo |
+| **Image gen** | Ideogram free | 25 images/day |
+| **Voice** | ElevenLabs free | 10K chars/mo |
+| **Inference** | Ollama (local) | Hardware-bound |
+| **Monitoring** | Langfuse OSS | Self-hosted |
+
+**For bootstrapped SaaS:** Stack Groq + Qdrant + Ollama → fully functional AI backend at $0/month until serious scale.
+
+> ⚠️ Free tiers change. Verify before building your core product on any single provider.
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=hmzainjamil/free-ai-tools&type=Date)](https://star-history.com/#hmzainjamil/free-ai-tools&Date)
+
+---
+
+Built by [HMZ](https://github.com/hmzainjamil)
