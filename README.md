@@ -1,16 +1,16 @@
 # Free AI Tools
 
 <p align="center">
-  <a href="https://github.com/hmzainjamil/free-ai-tools/stargazers"><img src="https://img.shields.io/github/stars/hmzainjamil/free-ai-tools?style=for-the-badge&labelColor=555&color=white" alt="Stars"></a>
-  <a href="https://github.com/hmzainjamil/free-ai-tools/network/members"><img src="https://img.shields.io/github/forks/hmzainjamil/free-ai-tools?style=for-the-badge&labelColor=555&color=white" alt="Forks"></a>
-  <a href="https://github.com/hmzainjamil/free-ai-tools/issues"><img src="https://img.shields.io/github/issues/hmzainjamil/free-ai-tools?style=for-the-badge&labelColor=555&color=white" alt="Issues"></a>
-  <a href="https://github.com/hmzainjamil/free-ai-tools/pulls"><img src="https://img.shields.io/github/issues-pr/hmzainjamil/free-ai-tools?style=for-the-badge&labelColor=555&color=white" alt="PRs"></a>
-  <a href="https://github.com/hmzainjamil/free-ai-tools/commits"><img src="https://img.shields.io/github/last-commit/hmzainjamil/free-ai-tools?style=for-the-badge&labelColor=555&color=white" alt="Last Commit"></a>
+  <a href="https://github.com/hmzainjamil/free-ai-tools/stargazers"><img src="https://img.shields.io/github/stars/hmzainjamil/free-ai-tools?style=flat&labelColor=555&color=white" alt="Stars"></a>
+  <a href="https://github.com/hmzainjamil/free-ai-tools/network/members"><img src="https://img.shields.io/github/forks/hmzainjamil/free-ai-tools?style=flat&labelColor=555&color=white" alt="Forks"></a>
+  <a href="https://github.com/hmzainjamil/free-ai-tools/issues"><img src="https://img.shields.io/github/issues/hmzainjamil/free-ai-tools?style=flat&labelColor=555&color=white" alt="Issues"></a>
+  <a href="https://github.com/hmzainjamil/free-ai-tools/pulls"><img src="https://img.shields.io/github/issues-pr/hmzainjamil/free-ai-tools?style=flat&labelColor=555&color=white" alt="PRs"></a>
+  <a href="https://github.com/hmzainjamil/free-ai-tools/commits"><img src="https://img.shields.io/github/last-commit/hmzainjamil/free-ai-tools?style=flat&labelColor=555&color=white" alt="Last Commit"></a>
 </p>
 
-![Last Updated](https://img.shields.io/badge/updated-April%2011%2C%202026-brightgreen?style=for-the-badge&labelColor=555)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge&labelColor=555)
-![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&labelColor=555)
+![Last Updated](https://img.shields.io/badge/updated-April%2011%2C%202026-brightgreen?style=flat&labelColor=555)
+![License](https://img.shields.io/badge/license-MIT-blue?style=flat&labelColor=555)
+![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat&labelColor=555)
 
 > **Curated list of free LLM APIs, coding copilots, AI IDEs, agents, and infrastructure tools for building real AI applications.**
 
@@ -32,6 +32,58 @@
 > **April 2026 Model Tier Changes:** Major providers (OpenAI, Anthropic, Google) have restricted flagship models (GPT-5.4, Claude Opus 4.6, Gemini 3.1 Pro) to paid tiers. Free tiers now get lighter models (GPT-4o, Claude Sonnet/Haiku, Gemini Flash). Entries marked with `[verify]` need confirmation.
 
 ---
+
+
+---
+
+## CONCEPTS
+
+| Concept | Description |
+|---|---|
+| **Free** | Core concept — primary building block of free ai tools |
+| **Ai** | Execution primitive handling AI operations |
+| **Tools** | Integration layer for tools connectivity |
+| **Apis** | Configuration and routing for APIs behavior |
+| **Claude Code** | Anthropic CLI — agentic coding and task execution |
+| **MCP** | Model Context Protocol — tool exposure standard |
+| **Skill** | Self-contained Claude Code capability module |
+| **Tier-0** | Free model routing: Groq → Ollama → DeepSeek |
+| **Context Window** | Token budget per session — managed via compression |
+| **Async Agent** | Background task agent — non-blocking parallel execution |
+
+---
+
+## 🔥 Hot Commands
+
+```bash
+# Clone and explore
+gh repo clone hmzainjamil/free-ai-tools
+cd free-ai-tools
+
+# Load as Claude Code skill
+cp -r . ~/.claude/skills/free-ai-tools/
+
+# Run via MAE pipeline
+mae run "free ai tools - primary workflow"
+
+# Quick invoke via Claude
+claude -p "using free capabilities: run main workflow"
+```
+
+## ■ tip
+> **Route sub-tasks to Tier-0 first** (Groq/Ollama) — saves Claude quota for synthesis only. Use `mae run` to auto-decompose complex tasks.
+
+---
+
+## ☠️ STARTUPS / BUSINESSES
+
+- **Digital agencies** — deploy as client delivery multiplier, 10× throughput
+- **SaaS founders** — integrate into existing Claude Code stack, zero infra overhead
+- **AI engineers** — fork and extend with custom domain logic
+- **Freelancers** — use as billable-hours accelerator for free + AI work
+
+---
+
 
 ## 🎯 Why This Repo Exists
 
