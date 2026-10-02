@@ -30,7 +30,7 @@ For local development:
 
 1. Install Node.js and a package manager supported by your environment.
 2. Change to `website/`.
-3. Install dependencies using the package manager and lockfile available there.
+3. Install dependencies from `website/package.json` with your chosen Node package manager. No package lockfile is checked in, so dependency resolution may vary between installs.
 4. Run one of the scripts declared in `website/package.json`.
 
 The manifest declares `dev`, `build`, `start`, and `lint` scripts. This guide does not claim those commands have been run successfully. No root-level application install script or CLI is present in the inspected repository tree.
@@ -70,7 +70,7 @@ No model inference, fallback routing, telemetry pipeline, audit log, or autonomo
 | Guide | Purpose |
 |---|---|
 | [Contributing](CONTRIBUTING.md) | Catalog submission fields and review guidance |
-| [Website README](website/README.md) | Next.js starter guidance currently present in the website folder |
+| [Website README](website/README.md) | Website development and package-script reference; commands are declared, not verified by execution |
 | [License](LICENSE) | Repository license |
 
 ## Security
